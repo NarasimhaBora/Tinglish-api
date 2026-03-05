@@ -1,6 +1,6 @@
 # Tinglish API - Complete Documentation
 
-**Tinglish API** is a Spring Boot-based REST API that converts Tinglish (Telugu written in Roman script) into grammatically correct Telugu script using AI-powered language models through the OLLAMA API. The application employs a multi-pass AI orchestration strategy to ensure accurate translations and grammar corrections.
+**Tinglish API** is a Spring Boot-based REST API that converts Tinglish (Telugu written in English script) into grammatically correct Telugu script using AI-powered language models through the OLLAMA API. The application employs a multi-pass AI orchestration strategy to ensure accurate translations and grammar corrections.
 
 ---
 
