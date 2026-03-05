@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: local   # 👈 This will load application-local.yml
+
+server:
+  servlet:
+    context-path: /api/tinglish-service
+    port: 8080
+    shutdown: GRACEFUL
+
+llama:
+  api:
+    url: "http://localhost:11434"
+    endpoint: "/api/generate"
+  prompt: "Translate the following text to the target language: {{text}}"
+  model:
+    name: "llama3"
+  stream: false
